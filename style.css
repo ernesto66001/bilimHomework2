@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form{
+    margin-top: 100px;
+    background: #e5e5e5;
+    padding: 50px 30px;
+    width: 400px;
+    text-align: center;
+}
+.avatarka{
+    width: 103px;
+    height: 103px;
+    background: grey;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.info{
+    margin: 50px auto;
+text-align: left;
+}
+input{
+    background: rgba(201, 229, 255, 1);
+border:0;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+input:focus{
+    border:0;
+}
+.info h4{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-bottom{
+    margin-top: 30px;
+}
+.forgotOfcheck{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.checbox{
+    display: flex;
+    align-items: center;
+    gap:5px;
+
+}
+.forgotOfcheck input{
+    width: 20px;
+    height: 20px;
+
+}
+.login{
+    width: 100%;
+    height: 70px;
+    background: rgba(59, 128, 48, 1);
+border:0;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+}
+.facebook{
+    width: 100%;
+    height: 70px;
+    background: rgba(48, 84, 128, 1);
+border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    margin-top: 30px;
+    border: 0;
+}
